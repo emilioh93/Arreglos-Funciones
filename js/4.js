@@ -14,3 +14,5 @@ function Divisibilidad(numero) {
 }
 
 Divisibilidad(5);
+document.write("<br>");
+Divisibilidad(10);
