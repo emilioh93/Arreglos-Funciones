@@ -19,7 +19,7 @@ document.write("<br>La longitud del arreglo es de: " + ciudades.length);
 // Mostrar en el documento web los ítems de las posiciones primera, tercera y última
 document.write("<br>El elemento en la primera posición del arreglo es: " + ciudades[0]);
 document.write("<br>El elemento en la tercera posición del arreglo es: " + ciudades[2]);
-document.write("<br>El elemento en la {última posición del arreglo es: " + ciudades[ciudades.length - 1]);
+document.write("<br>El elemento en la última posición del arreglo es: " + ciudades[ciudades.length - 1]);
 
 // Añade en última posición la ciudad de París
 let nuevaLongitud = ciudades.push("París");
