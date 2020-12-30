@@ -1,7 +1,11 @@
-// Escribir un script que simule el lanzamiento de dos dados. Hacer uso de la función Math.random para obtener números aleatorios entre 1 y 6 para cada uno de los lanzamientos de los dados. Sumar el resultado de lanzar dos dados y anotar en un array el número de apariciones de dicha suma, repitiendo 50 veces esta operación.
 let dado1, dado2, suma;
 let contador = 0;
 let resultados = [];
+
+// If you want a random number between 1 and 10, multiply the results of Math.random by 10, then round up or down.
+// Use .floor to round down to a whole number
+// Use .ceil to round up to a whole number
+// Use .round to round to the nearest whole number
 
 while (contador < 50) {
     // sumar dados
